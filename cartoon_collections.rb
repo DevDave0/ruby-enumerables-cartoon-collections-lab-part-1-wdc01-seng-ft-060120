@@ -7,6 +7,6 @@ end
 
 def list_dwarves(array)
   hash = Hash.new 
-  
+  array.each_wit
   
 end
