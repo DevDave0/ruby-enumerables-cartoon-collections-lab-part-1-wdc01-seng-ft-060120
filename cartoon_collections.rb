@@ -8,4 +8,5 @@ end
 def list_dwarves(array)
   hash = Hash.new 
   
+  
 end
