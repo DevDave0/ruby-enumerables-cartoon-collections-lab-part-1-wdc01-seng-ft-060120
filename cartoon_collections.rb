@@ -8,7 +8,6 @@ end
 def list_dwarves(array)
   new_array = []
   array.each_with_index {|item, index|
-  new_array[item] = index 
-  p "#{index + 1}."  + " " + "#{new_array[index]}"}
+  p "#{index + 1}."  + " " + "#{array[index]}"}
   
 end
