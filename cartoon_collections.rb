@@ -8,6 +8,6 @@ end
 def list_dwarves(array)
   hash = Hash.new 
   total = 0 
-  array.each_with_index {
+  array.each_with_index {|
   
 end
