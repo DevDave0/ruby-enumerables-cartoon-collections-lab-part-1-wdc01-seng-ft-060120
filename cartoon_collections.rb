@@ -8,8 +8,8 @@ end
 def list_dwarves(array)
   total = 0 
   array.each do |array|
-    puts (#{total} + 1) + " " + #{array[total]}
+    puts #{total + 1} #{array[total]}
     total +=1 
-  end 
+  end
   
 end
